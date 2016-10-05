@@ -24,3 +24,9 @@ li{
 	list-style-position: inside;
 	list-style-image: url("../images/fleche2.jpg");
 }
+footer
+{
+	padding-top: 20px;
+	width: 100%;
+	text-align: center;
+}
