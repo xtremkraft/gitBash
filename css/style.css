@@ -1,25 +1,25 @@
 html
 {
 	min-height: 100%;
-	background: radial-gradient(circle, rgba(50,50,50,.85), #FFFFFF);
+	background: radial-gradient(circle, rgba(255,255,0,.85), #FFFFFF);
 }
 h1{
 	text-align: center;	
 }
 h2
 {
-	color: red;
+	color: blue;
 }
 pre
 {
 	font-size: 1.3em;
-	background-color: #000000;
-	color: #FFFFFF;
-	border: 1px solid #333333;
+	background-color: #FFFF00;
+	color: #000000;
+	border: 1px solid #CCCC00;
 	display: inline-block;
 	padding: 5px;
 	border-radius: 5px;
-	box-shadow: 3px 3px white;
+	box-shadow: 3px 3px gray;
 }
 li{
 	list-style-position: inside;
