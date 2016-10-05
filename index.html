@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Projet GIT Bash</title>
-	<link rel="stylesheet" href="css/style.css" />
+  <meta charset="utf-8">
+  <title>Projet GIT Bash</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <H1>Utilisation de GIT en ligne de commandes</H1>
   <section>
-  	<article>
-			<h2>Création d'un dépot</h2>
-  		<ul>
-  	 	 <li>Vide: <pre>GIT init</pre></li>
-  	 	 <li>Par clonage: <pre>GIT clone http://github.com/nomUtilisateur/NomDepot</pre></li>
-  		</ul>
-  	</article>
-  	<article>
-  		<h2>Sauvegarde des modifications (en local)</h2><ul>
-  			<li>Etat des modifications: <pre>GIT status</pre></li>
-  			<li>Ajout à l'index: <pre>GIT add .</pre></li>
-  			<li>Enregistrement: <pre>GIT commit -M "COMMENTAIRE!!!"</pre></li>
-  			<li>Logs et récupération du N° de dépot: <pre>GIT log --oneline</pre></li>
-  			<li>Annulation d'un commit: <pre>GIT checkout C3B5453 nomFichier</pre></li>
-  		</ul>
-		</article>
-		<article>
-			<H2>Gestion du dépot distant</H2>
-			<ul>
-				<li>Si projet non cloné: <pre>GIT remote add origin http://github.com/nomUtilisateur/NomDepot</pre></li>
-				<li>Récupération de la version sur le serveur (avant un push): <pre>GIT pull</pre></li>
-				<li>Envoi sur le serveur de ce qui a été commité en local: <pre>GIT push origin master</pre></li>
-			</ul>
-		</article>
+    <article>
+      <h2>Création d'un dépot</h2>
+      <ul>
+       <li>Vide: <pre>GIT init</pre></li>
+       <li>Par clonage: <pre>GIT clone http://github.com/nomUtilisateur/NomDepot</pre></li>
+      </ul>
+    </article>
+    <article>
+      <h2>Sauvegarde des modifications (en local)</h2><ul>
+        <li>Etat des modifications: <pre>GIT status</pre></li>
+        <li>Ajout à l'index: <pre>GIT add .</pre></li>
+        <li>Enregistrement: <pre>GIT commit -M "COMMENTAIRE!!!"</pre></li>
+        <li>Logs et récupération du N° de dépot: <pre>GIT log --oneline</pre></li>
+        <li>Annulation d'un commit: <pre>GIT checkout C3B5453 nomFichier</pre></li>
+      </ul>
+    </article>
+    <article>
+      <H2>Gestion du dépot distant</H2>
+      <ul>
+        <li>Si projet non cloné: <pre>GIT remote add origin http://github.com/nomUtilisateur/NomDepot</pre></li>
+        <li>Récupération de la version sur le serveur (avant un push): <pre>GIT pull</pre></li>
+        <li>Envoi sur le serveur de ce qui a été commité en local: <pre>GIT push origin master</pre></li>
+      </ul>
+    </article>
+    <article>
+    <h2>Gestion des branches</h2>
+      <ul>
+        <li>Afficher toutes les branches d'un dépot: <pre>GIT branch</pre></li>
+        <li>Créer une branche: <pre>Git branch maBranche</pre></li>
+        <li>Se connecter à une branche: <pre>GIT checkout maBranche</pre></li>
+        <li>
+        <li>Effacer une branche: <pre>GIT branch -d maBranche</pre></li>
+        <li>Envoyer sur le serveur dans une branche: <pre>GIT push origin maBranche</pre></li>
+      </ul>
+    </article>
   </section>
   <footer>
-	  Copyright <img src="images/ophois.png" /> 2016
+    Copyright <img src="images/ophois.png" /> 2016
   </footer>
 </body>
 </html>
